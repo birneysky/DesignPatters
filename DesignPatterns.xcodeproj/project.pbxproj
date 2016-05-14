@@ -19,6 +19,8 @@
 		742591DA1CE7422300178E5C /* PagerCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742591D91CE7422300178E5C /* PagerCanvasView.m */; };
 		742591DD1CE7423100178E5C /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742591DC1CE7423100178E5C /* ClothCanvasView.m */; };
 		742591E01CE743F100178E5C /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 742591DF1CE743F100178E5C /* CanvasViewGenerator.m */; };
+		742591E31CE746A800178E5C /* PagerCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 742591E21CE746A800178E5C /* PagerCanvasViewGenerator.m */; };
+		742591E61CE746D200178E5C /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 742591E51CE746D200178E5C /* ClothCanvasViewGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		742591DC1CE7423100178E5C /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
 		742591DE1CE743F100178E5C /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
 		742591DF1CE743F100178E5C /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		742591E11CE746A800178E5C /* PagerCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerCanvasViewGenerator.h; sourceTree = "<group>"; };
+		742591E21CE746A800178E5C /* PagerCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerCanvasViewGenerator.m; sourceTree = "<group>"; };
+		742591E41CE746D200178E5C /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		742591E51CE746D200178E5C /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,10 @@
 				742591DC1CE7423100178E5C /* ClothCanvasView.m */,
 				742591DE1CE743F100178E5C /* CanvasViewGenerator.h */,
 				742591DF1CE743F100178E5C /* CanvasViewGenerator.m */,
+				742591E11CE746A800178E5C /* PagerCanvasViewGenerator.h */,
+				742591E21CE746A800178E5C /* PagerCanvasViewGenerator.m */,
+				742591E41CE746D200178E5C /* ClothCanvasViewGenerator.h */,
+				742591E51CE746D200178E5C /* ClothCanvasViewGenerator.m */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -371,7 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				742591A01CE7367400178E5C /* ViewController.m in Sources */,
+				742591E61CE746D200178E5C /* ClothCanvasViewGenerator.m in Sources */,
 				7425919D1CE7367400178E5C /* AppDelegate.m in Sources */,
+				742591E31CE746A800178E5C /* PagerCanvasViewGenerator.m in Sources */,
 				742591DA1CE7422300178E5C /* PagerCanvasView.m in Sources */,
 				742591D71CE73E3600178E5C /* CanvasView.m in Sources */,
 				7425919A1CE7367400178E5C /* main.m in Sources */,
