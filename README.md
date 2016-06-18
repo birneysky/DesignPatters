@@ -36,4 +36,6 @@
 #### 工厂模式
 
 各种具体工厂重载其抽象父类中定义的工厂方法，并且这个重载的工厂方法创建自己的产品
- ![](Factory.png)     
+ ![](Factory.png)
+ 抽象产品类(Product)定义了工厂方法创建对象的接口。具体产品类(ConcreteProduct)实现了抽象产品类的接口。Creator定义了返回Product对象的工厂方法。Creator的其他操作可以调用此工厂方法创建Product对象。concreteCreator是Creator的子类。它重载了工厂方法，已返回concreteProduct实例。
+ 
