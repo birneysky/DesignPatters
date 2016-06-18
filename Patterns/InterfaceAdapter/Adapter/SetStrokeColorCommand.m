@@ -15,7 +15,7 @@
     CGFloat greenValue = 0;
     CGFloat blueValue = 0;
     [self.delegate commnad:self didRequestColorComponentsForRed:&redValue green:&greenValue blue:&blueValue];
-    UIColor* color = [UIColor colorWithRed:redValue green:greenValue blue:blueValue alpha:1.0f];
+    //UIColor* color = [UIColor colorWithRed:redValue green:greenValue blue:blueValue alpha:1.0f];
     
 }
 
