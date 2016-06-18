@@ -2,7 +2,7 @@
 ![Mou icon](http://a1.jikexueyuan.com/home/201601/29/7c2e/56ab1968879d8.jpg)
 ### 对象创建
 * [原型模式]()
-* [工厂方法]()
+* [工厂方法](https://github.com/birneysky/DesignPatters/blob/master/README.md#工厂模式)
 * [抽象工厂]()
 * [生成器]()	
 * [单例]()
@@ -29,3 +29,8 @@
 * [模板方法]()
 * [策略]()
 * [命令]()
+
+
+---
+
+#### 工厂模式
